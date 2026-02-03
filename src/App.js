@@ -18,22 +18,29 @@ export default function Portfolio() {
     <div className="portfolio-container">
       {/* Navigation */}
       <div className="nav-container">
-        <button className="nav-button" onClick={() => setNavOpen(!navOpen)}>
+        <button
+          className={`nav-button ${navOpen ? "is-open" : ""}`}
+          onClick={() => setNavOpen((v) => !v)}
+          aria-expanded={navOpen}
+          aria-controls="nav-dropdown"
+        >
           Menu
         </button>
-        {navOpen && (
-          <div className="nav-dropdown">
-            <a href="#resume" className="nav-link">
-              Resume
-            </a>
-            <a href="#contact" className="nav-link">
-              Contact
-            </a>
-            <a href="mailto:your@email.com" className="nav-link">
-              Email
-            </a>
-          </div>
-        )}
+
+        <div
+          id="nav-dropdown"
+          className={`nav-dropdown ${navOpen ? "is-open" : ""}`}
+        >
+          <a href="#resume" className="nav-link nav-link--1">
+            Resume
+          </a>
+          <a href="#contact" className="nav-link nav-link--2">
+            Contact
+          </a>
+          <a href="mailto:madscalls@gmail.com" className="nav-link nav-link--3">
+            Email
+          </a>
+        </div>
       </div>
 
       {/* Landing Section */}

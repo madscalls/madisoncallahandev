@@ -52,7 +52,7 @@ export default function PhysicsTest() {
             friction: 0.1,
             render: {
               fillStyle: project.color,
-              strokeStyle: "#ffffff",
+              strokeStyle: "#ffffff00",
               lineWidth: 3,
             },
           },
@@ -103,8 +103,8 @@ export default function PhysicsTest() {
       {
         isStatic: true,
         render: {
-          fillStyle: "rgba(255, 255, 255, 0.3)",
-          strokeStyle: "rgba(255, 255, 255, 0.5)",
+          fillStyle: "rgba(255, 255, 255, 0)",
+          strokeStyle: "rgba(255, 255, 255, 0)",
           lineWidth: 2,
         },
       },
@@ -117,8 +117,8 @@ export default function PhysicsTest() {
       {
         isStatic: true,
         render: {
-          fillStyle: "rgba(255, 255, 255, 0.3)",
-          strokeStyle: "rgba(255, 255, 255, 0.5)",
+          fillStyle: "rgba(255, 255, 255, 0)",
+          strokeStyle: "rgba(255, 255, 255, 0)",
           lineWidth: 2,
         },
       },
@@ -131,8 +131,8 @@ export default function PhysicsTest() {
       {
         isStatic: true,
         render: {
-          fillStyle: "rgba(255, 255, 255, 0.3)",
-          strokeStyle: "rgba(255, 255, 255, 0.5)",
+          fillStyle: "rgba(255, 255, 255, 0)",
+          strokeStyle: "rgba(255, 255, 255, 0)",
           lineWidth: 2,
         },
       },
@@ -241,8 +241,8 @@ export default function PhysicsTest() {
           transform: "translateX(-50%)",
           zIndex: 10,
           padding: "12px 24px",
-          background: "rgba(255, 255, 255, 0.2)",
-          border: "2px solid rgba(255, 255, 255, 0.5)",
+          background: "rgba(255, 255, 255, 0)",
+          border: "2px solid rgba(255, 255, 255, 0)",
           borderRadius: "30px",
           color: "white",
           cursor: "pointer",

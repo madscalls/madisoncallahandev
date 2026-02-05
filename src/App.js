@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import PhysicsTest from "./PhysicsTest";
+import res from "../src/images/resume.png";
+import linkedinicon from "../src/images/linkedin-logo.png";
+import git from "../src/images/GitHub_Introvertocat_White.svg";
 
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -109,8 +112,8 @@ function Resume() {
         </div>
 
         <div className="page-card">
-          <p className="page-text">Open or download my resume below.</p>
-
+          <p className="page-text">Thanks for looking</p>
+          <img src={res} alt="resume" />
           <div className="page-actions">
             <a
               href="/madisoncallahandev/resume.pdf"
@@ -120,6 +123,8 @@ function Resume() {
             >
               View Resume (PDF)
             </a>
+            <br></br>
+            <img src={res} alt="resume" className="res-img" />
           </div>
         </div>
       </div>
@@ -154,16 +159,20 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              github.com/madscalls
+              <img src={git} className="github-logo" alt="github" />
             </a>
 
             <a
               className="contact-item"
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/madison-callahan-052140369/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com
+              <img
+                src={linkedinicon}
+                alt="linkedin"
+                className="linkedin-icon"
+              />{" "}
             </a>
           </div>
         </div>

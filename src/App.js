@@ -120,21 +120,7 @@ function Resume() {
             >
               View Resume (PDF)
             </a>
-
-            <a
-              href="/madisoncallahandev/resume.pdf"
-              download
-              className="page-button page-button--secondary"
-            >
-              Download
-            </a>
           </div>
-
-          <iframe
-            title="Resume PDF"
-            src="/madisoncallahandev/resume.pdf"
-            className="resume-frame"
-          />
         </div>
       </div>
     </div>

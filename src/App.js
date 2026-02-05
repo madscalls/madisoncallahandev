@@ -5,7 +5,7 @@ import PhysicsTest from "./PhysicsTest";
 import res from "./images/resume.png";
 import linkedinicon from "./images/linkedin-logo.png";
 import git from "./images/GitHub_Invertocat_White.svg";
-
+import gmail from "./images/gmail.png";
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -113,10 +113,9 @@ function Resume() {
 
         <div className="page-card">
           <p className="page-text">Thanks for looking</p>
-          <img src={res} alt="resume" />
           <div className="page-actions">
             <a
-              href="/madisoncallahandev/resume.pdf"
+              href="file:///C:/Users/Madsc/Downloads/Madison%20Callahan%20Tech%20resume%202025%20(1).pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="page-button"
@@ -150,7 +149,7 @@ function Contact() {
 
           <div className="contact-list">
             <a className="contact-item" href="mailto:madscalls@gmail.com">
-              madscalls@gmail.com
+              <img src={gmail} alt="gmail" className="gmail" />
             </a>
 
             <a

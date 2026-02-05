@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import PhysicsTest from "./PhysicsTest";
 
-export default function Portfolio() {
+export default function App() {
   const [navOpen, setNavOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 

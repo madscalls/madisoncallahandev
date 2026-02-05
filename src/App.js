@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import PhysicsTest from "./PhysicsTest";
-import res from "./images/resume";
-import linkedinicon from "./images/linkedin-logo";
-import git from "./images/GitHub_Introvertocat_White";
+import res from "./images/resume.png";
+import linkedinicon from "./images/linkedin-logo.png";
+import git from "./images/GitHub_Invertocat_White.svg";
 
 function Home() {
   const [navOpen, setNavOpen] = useState(false);

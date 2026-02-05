@@ -277,3 +277,9 @@ body {
     font-size: 2rem;
   }
 }
+.back-link {
+  color: white;
+}
+.back-link:hover {
+  color: rgba(248, 65, 248, 0.456);
+}

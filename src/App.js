@@ -103,7 +103,7 @@ function Resume() {
       <div className="page-inner">
         <div className="page-header">
           <Link to="/" className="back-link">
-            Back
+            ←
           </Link>
           <h1 className="page-title">Resume</h1>
         </div>
@@ -147,7 +147,7 @@ function Contact() {
       <div className="page-inner">
         <div className="page-header">
           <Link to="/" className="back-link">
-            Back
+            ←
           </Link>
           <h1 className="page-title">Contact</h1>
         </div>

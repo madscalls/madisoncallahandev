@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import PhysicsTest from "./PhysicsTest";
 
-export default function Portfolio() {
+function Home() {
   const [navOpen, setNavOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -16,7 +17,6 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio-container">
-      {/* Navigation */}
       <div className="nav-container">
         <button
           className={`nav-button ${navOpen ? "is-open" : ""}`}
@@ -31,19 +31,18 @@ export default function Portfolio() {
           id="nav-dropdown"
           className={`nav-dropdown ${navOpen ? "is-open" : ""}`}
         >
-          <a href="#resume" className="nav-link nav-link--1">
+          <Link to="/resume" className="nav-link nav-link--1">
             Resume
-          </a>
-          <a href="#contact" className="nav-link nav-link--2">
+          </Link>
+          <Link to="/contact" className="nav-link nav-link--2">
             Contact
-          </a>
+          </Link>
           <a href="mailto:madscalls@gmail.com" className="nav-link nav-link--3">
             Email
           </a>
         </div>
       </div>
 
-      {/* Landing Section */}
       <section className="landing-section">
         <div className="landing-content">
           <div className="circles-container">
@@ -63,7 +62,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Credentials Section */}
       <section
         className="credentials-section"
         style={{ transform: `translateY(-${parallaxOffset}px)` }}
@@ -85,17 +83,117 @@ export default function Portfolio() {
           <p>
             I truly believe I can create the next big thing and hope to work
             with you. If you'd like to view my portfolio projects please scroll
-            below and click on a ball to find somthing you like.
-            <br></br>
+            below and click on a ball to find something you like.
+            <br />
             Thank you for your attention & time
           </p>
         </div>
       </section>
 
-      {/* Matter.js Section */}
       <section className="matter-section">
         <PhysicsTest />
       </section>
     </div>
+  );
+}
+
+function Resume() {
+  return (
+    <div className="page-container">
+      <div className="page-inner">
+        <div className="page-header">
+          <Link to="/" className="back-link">
+            Back
+          </Link>
+          <h1 className="page-title">Resume</h1>
+        </div>
+
+        <div className="page-card">
+          <p className="page-text">Open or download my resume below.</p>
+
+          <div className="page-actions">
+            <a
+              href="/madisoncallahandev/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="page-button"
+            >
+              View Resume (PDF)
+            </a>
+
+            <a
+              href="/madisoncallahandev/resume.pdf"
+              download
+              className="page-button page-button--secondary"
+            >
+              Download
+            </a>
+          </div>
+
+          <iframe
+            title="Resume PDF"
+            src="/madisoncallahandev/resume.pdf"
+            className="resume-frame"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div className="page-container">
+      <div className="page-inner">
+        <div className="page-header">
+          <Link to="/" className="back-link">
+            Back
+          </Link>
+          <h1 className="page-title">Contact</h1>
+        </div>
+
+        <div className="page-card">
+          <p className="page-text">
+            Want to collaborate or chat? Here are the best ways to reach me:
+          </p>
+
+          <div className="contact-list">
+            <a className="contact-item" href="mailto:madscalls@gmail.com">
+              madscalls@gmail.com
+            </a>
+
+            <a
+              className="contact-item"
+              href="https://github.com/madscalls"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/madscalls
+            </a>
+
+            <a
+              className="contact-item"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Portfolio() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </HashRouter>
   );
 }

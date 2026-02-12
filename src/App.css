@@ -474,7 +474,7 @@ body {
 .floating-circle-1 {
   width: calc(var(--cSize) * 0.27);
   height: calc(var(--cSize) * 0.27);
-  top: -10%;
+  top: -28%;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(238, 195, 241);
@@ -484,8 +484,8 @@ body {
 .floating-circle-2 {
   width: calc(var(--cSize) * 0.22);
   height: calc(var(--cSize) * 0.22);
-  bottom: 8%;
-  left: 6%;
+  bottom: 17%;
+  left: 24%;
   background-color: rgb(156, 107, 159);
   animation: float 7s ease-in-out infinite 1s;
 }
@@ -493,7 +493,7 @@ body {
 .floating-circle-3 {
   width: calc(var(--cSize) * 0.16);
   height: calc(var(--cSize) * 0.16);
-  top: 18%;
+  top: -7%;
   left: 12%;
   background-color: rgb(247, 223, 245);
   animation: float 6.5s ease-in-out infinite 1.5s;

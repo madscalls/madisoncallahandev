@@ -8,15 +8,15 @@ import git from "./images/GitHub_Invertocat_White.svg";
 import gmail from "./images/gmail.png";
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
+  // const [scrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   const handleScroll = () => setScrollY(window.scrollY);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
-  const parallaxOffset = scrollY * 0.5;
+  // const parallaxOffset = scrollY * 0.5;
 
   return (
     <div className="portfolio-container">
@@ -67,7 +67,7 @@ function Home() {
 
       <section
         className="credentials-section"
-        style={{ transform: `translateY(-${parallaxOffset}px)` }}
+        // style={{ transform: `translateY(-${parallaxOffset}px)` }}
       >
         <div className="credentials-content">
           <h2>We're gonna make it short and sweet..</h2>

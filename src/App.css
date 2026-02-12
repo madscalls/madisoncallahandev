@@ -166,18 +166,17 @@ body {
   height: calc(var(--cSize) * 0.27);
   top: -28%;
   left: 50%;
-  transform: translateX(-50%);
   background-color: rgb(238, 195, 241);
-  animation: float 5s ease-in-out infinite 0.5s;
+  animation: floatCentered 5s ease-in-out infinite 0.5s;
 }
 
 .floating-circle-2 {
   width: calc(var(--cSize) * 0.22);
   height: calc(var(--cSize) * 0.22);
-  bottom: 17%;
-  left: 24%;
+  bottom: 118%;
+  left: -8%;
   background-color: rgb(156, 107, 159);
-  animation: float 7s ease-in-out infinite 1s;
+  animation: floatY 7s ease-in-out infinite 1s;
 }
 
 .floating-circle-3 {
@@ -186,22 +185,33 @@ body {
   top: -7%;
   left: 12%;
   background-color: rgb(247, 223, 245);
-  animation: float 6.5s ease-in-out infinite 1.5s;
+  animation: floatY 6.5s ease-in-out infinite 1.5s;
 }
 
-@keyframes float {
+@keyframes floatY {
   0%,
   100% {
-    transform: translateY(0px);
+    transform: translate3d(0, 0, 0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translate3d(0, -20px, 0);
+  }
+}
+
+@keyframes floatCentered {
+  0%,
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  50% {
+    transform: translate3d(-50%, -20px, 0);
   }
 }
 
 .intro-text {
   flex: 1;
   max-width: 600px;
+  min-width: 0;
 }
 
 .intro-text h1 {
@@ -209,12 +219,16 @@ body {
   font-weight: 300;
   margin-bottom: 1.25rem;
   line-height: 1.1;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .intro-text p {
   font-size: clamp(1rem, 2.4vw, 1.25rem);
   color: #ffffff;
   line-height: 1.7;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .credentials-section {
@@ -305,10 +319,14 @@ a {
     flex-direction: column;
     gap: 1.75rem;
     text-align: center;
+    width: 100%;
+    max-width: 100%;
   }
 
   .intro-text {
     max-width: 36rem;
+    width: 100%;
+    min-width: 0;
   }
 
   .credentials-section {

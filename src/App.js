@@ -6,6 +6,7 @@ import res from "./images/resume.png";
 import linkedinicon from "./images/linkedin-logo.png";
 import git from "./images/GitHub_Invertocat_White.svg";
 import gmail from "./images/gmail.png";
+
 function Home() {
   const [navOpen, setNavOpen] = useState(false);
   // const [scrollY, setScrollY] = useState(0);

@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Matter from "matter-js";
+import "./App.css";
+// import sparkle from "./images/sparkles.svg";
 
 export default function PhysicsTest() {
   const sceneRef = useRef(null);
@@ -15,25 +17,25 @@ export default function PhysicsTest() {
       name: "TicTacToad",
       url: "https://madscalls.github.io/tictactoad/",
       color: "#8f2280ff",
-      size: 50,
+      size: 150,
     },
     {
       name: "Toro&Tide",
       url: "https://madscalls.github.io/toroandtide/",
       color: "#f7c309ff",
-      size: 25,
+      size: 100,
     },
     {
       name: "RPS",
       url: "https://madscalls.github.io/RPS/",
       color: "#ff6b9d",
-      size: 35,
+      size: 120,
     },
     {
       name: "Introspective Color",
       url: "https://ic.oops.wtf/",
       color: "#b09ef8",
-      size: 40,
+      size: 275,
     },
   ];
 
@@ -225,34 +227,19 @@ export default function PhysicsTest() {
       Engine.clear(engineRef.current);
       renderRef.current.canvas.remove();
     };
-  }, []); // CHANGED
+  }, []);
 
   return (
     <div
       ref={sectionRef}
       style={{ width: "100%", height: "100%", position: "relative" }}
     >
-      <button
-        onClick={dropAllCircles}
-        style={{
-          position: "absolute",
-          top: "20px",
-          left: "50%",
-          transform: "translateX(-50%)",
-          zIndex: 10,
-          padding: "12px 24px",
-          background: "rgba(255, 255, 255, 0)",
-          border: "2px solid rgba(255, 255, 255, 0)",
-          borderRadius: "30px",
-          color: "white",
-          cursor: "pointer",
-          backdropFilter: "blur(10px)",
-          fontSize: "16px",
-          fontWeight: "300",
-        }}
-      >
+      {/* <img src={sparkle} alt="sparkle" className="projects__sparkle1" /> */}
+      <button onClick={dropAllCircles} className="project__button">
         View Projects
       </button>
+      {/* <img src={sparkle} alt="sparkle" className="projects__sparkle2" /> */}
+
       <div ref={sceneRef} style={{ width: "100%", height: "100%" }} />
     </div>
   );

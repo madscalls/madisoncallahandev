@@ -442,7 +442,7 @@ a {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .landing-section {
     padding: 0 1.25rem;
   }
@@ -498,7 +498,7 @@ a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 360px) {
   .landing-section,
   .credentials-section {
     padding: 0 1rem;

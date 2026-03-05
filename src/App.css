@@ -320,7 +320,7 @@ body {
   animation: floatY 6.5s ease-in-out infinite 1.5s;
 }
 
-@keyframes floatY {
+/* @keyframes floatY {
   0%,
   100% {
     transform: translate3d(0, 0, 0);
@@ -338,7 +338,7 @@ body {
   50% {
     transform: translate3d(-50%, -20px, 0);
   }
-}
+} */
 
 .intro-text {
   flex: 1;

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/madisoncallahandev/static/css/main.1d3c8e74.css",
-    "main.js": "/madisoncallahandev/static/js/main.08d1c306.js",
+    "main.js": "/madisoncallahandev/static/js/main.ecbbb56f.js",
     "static/media/avatar.png": "/madisoncallahandev/static/media/avatar.33ffa7c340ccefbe2509.png",
     "static/media/resume.png": "/madisoncallahandev/static/media/resume.a50f5277d0f7f757b053.png",
     "static/media/sparkles.svg": "/madisoncallahandev/static/media/sparkles.46920f0b1e849a2aa522.svg",
     "static/media/GitHub_Invertocat_White.svg": "/madisoncallahandev/static/media/GitHub_Invertocat_White.af449656122efd92a74656c5818dd6ad.svg",
     "index.html": "/madisoncallahandev/index.html",
     "main.1d3c8e74.css.map": "/madisoncallahandev/static/css/main.1d3c8e74.css.map",
-    "main.08d1c306.js.map": "/madisoncallahandev/static/js/main.08d1c306.js.map"
+    "main.ecbbb56f.js.map": "/madisoncallahandev/static/js/main.ecbbb56f.js.map"
   },
   "entrypoints": [
     "static/css/main.1d3c8e74.css",
-    "static/js/main.08d1c306.js"
+    "static/js/main.ecbbb56f.js"
   ]
 }

@@ -23,19 +23,19 @@ export default function PhysicsTest() {
       name: "Toro&Tide",
       url: "https://madscalls.github.io/toroandtide/",
       color: "#f7c309ff",
-      size: 85,
+      size: 45,
     },
     {
       name: "RPS",
       url: "https://madscalls.github.io/RPS/",
       color: "#ff6b9d",
-      size: 100,
+      size: 50,
     },
     {
       name: "Introspective Color",
       url: "https://ic.oops.wtf/",
       color: "#b09ef8",
-      size: 95,
+      size: 65,
     },
   ];
 

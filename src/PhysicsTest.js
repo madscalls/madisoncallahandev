@@ -17,25 +17,25 @@ export default function PhysicsTest() {
       name: "TicTacToad",
       url: "https://madscalls.github.io/tictactoad/",
       color: "#8f2280ff",
-      size: 150,
+      size: 75,
     },
     {
       name: "Toro&Tide",
       url: "https://madscalls.github.io/toroandtide/",
       color: "#f7c309ff",
-      size: 100,
+      size: 85,
     },
     {
       name: "RPS",
       url: "https://madscalls.github.io/RPS/",
       color: "#ff6b9d",
-      size: 120,
+      size: 100,
     },
     {
       name: "Introspective Color",
       url: "https://ic.oops.wtf/",
       color: "#b09ef8",
-      size: 275,
+      size: 95,
     },
   ];
 

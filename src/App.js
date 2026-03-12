@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import "./skills.css";
 import PhysicsTest from "./PhysicsTest";
 import res from "./images/resume.png";
 import linkedinicon from "./images/linkedin-logo.png";
@@ -91,6 +92,31 @@ function Home() {
             <br />
             Thank you for your attention & time
           </p>
+        </div>
+      </section>
+
+      <section className="skills">
+        <div className="skills__track">
+          <div className="skills__item">HTML</div>
+          <div className="skills__item">CSS</div>
+          <div className="skills__item">JavaScript</div>
+          <div className="skills__item">React</div>
+          <div className="skills__item">Git & GitHub</div>
+          <div className="skills__item">Responsive Design</div>
+          <div className="skills__item">API</div>
+          <div className="skills__item">Three.js</div>
+          <div className="skills__item">Matter.js</div>
+          <div className="skills__item">UI & UX</div>
+          <div className="skills__item">HTML</div>
+          <div className="skills__item">CSS</div>
+          <div className="skills__item">JavaScript</div>
+          <div className="skills__item">React</div>
+          <div className="skills__item">Git & GitHub</div>
+          <div className="skills__item">Responsive Design</div>
+          <div className="skills__item">API</div>
+          <div className="skills__item">Three.js</div>
+          <div className="skills__item">Matter.js</div>
+          <div className="skills__item">UI & UX</div>
         </div>
       </section>
 

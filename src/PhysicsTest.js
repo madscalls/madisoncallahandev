@@ -37,6 +37,12 @@ export default function PhysicsTest() {
       color: "#b09ef8",
       size: 65,
     },
+    {
+      name: "BW Template",
+      url: "https://madscalls.github.io/bwtemplate/",
+      color: "#554d76",
+      size: 75,
+    },
   ];
 
   // Function to drop all circles

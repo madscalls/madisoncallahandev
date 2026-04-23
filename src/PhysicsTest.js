@@ -32,8 +32,8 @@ export default function PhysicsTest() {
       size: 50,
     },
     {
-      name: "Introspective Color",
-      url: "https://ic.oops.wtf/",
+      name: "Color-Strobe",
+      url: "https://madscalls.github.io/colorstrobe/",
       color: "#b09ef8",
       size: 65,
     },

@@ -22,7 +22,7 @@ export default function PhysicsTest() {
     {
       name: "Toro&Tide",
       url: "https://madscalls.github.io/toroandtide/",
-      color: "#f7c309ff",
+      color: "rgb(247, 53, 9)",
       size: 45,
     },
     {
@@ -46,7 +46,7 @@ export default function PhysicsTest() {
     {
       name: "OV26",
       url: "https://ospreyvisuals.com/",
-      color: "#fcaf07",
+      color: "#f19706",
       size: 75,
     },
   ];

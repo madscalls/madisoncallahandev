@@ -41,6 +41,12 @@ export default function PhysicsTest() {
       name: "BW Template",
       url: "https://madscalls.github.io/bwtemplate/",
       color: "#554d76",
+      size: 60,
+    },
+    {
+      name: "OV26",
+      url: "https://ospreyvisuals.com/",
+      color: "#fcaf07",
       size: 75,
     },
   ];

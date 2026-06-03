@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import "./skills.css";
+import Stars from "./Stars";
 import PhysicsTest from "./PhysicsTest";
 import res from "./images/resume.png";
 import linkedinicon from "./images/linkedin-logo.png";
@@ -47,14 +48,10 @@ function Home() {
           </a>
         </div>
       </div>
-
       <section className="landing-section">
         <div className="landing-content">
           <div className="circles-container">
             <div className="main-circle"></div>
-            <div className="floating-circle floating-circle-1"></div>
-            <div className="floating-circle floating-circle-2"></div>
-            <div className="floating-circle floating-circle-3"></div>
           </div>
           <div className="intro-text">
             <h1>Hi there! Thanks for stopping by,</h1>
@@ -63,6 +60,9 @@ function Home() {
               accident or were persuaded here, for good reason at that! I got
               lots to show you. Either way, Welcome and I appreciate your time.
             </p>
+          </div>
+          <div className="stars-wrapper">
+            <Stars />
           </div>
         </div>
       </section>

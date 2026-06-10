@@ -289,16 +289,20 @@ body {
 }
 
 .credentials-section {
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 1rem;
   backdrop-filter: blur(6px);
+  position: relative;
+  overflow: hidden;
 }
 
 .credentials-content {
   max-width: 900px;
+  position: relative;
+  z-index: 2;
 }
 
 .credentials-content h2 {
@@ -378,6 +382,34 @@ a {
   position: absolute;
   right: 150px;
   top: 100px;
+}
+
+.lollipop-scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  pointer-events: none;
+  z-index: 3;
+}
+.lollipop-scene {
+  position: absolute;
+
+  top: -75px;
+  left: -75px;
+
+  width: 500px;
+  height: 500px;
+
+  pointer-events: none;
+  z-index: 3;
+}
+
+.credentials-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
 }
 
 @media (max-width: 1260px) {

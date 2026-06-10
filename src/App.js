@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import "./skills.css";
 import Stars from "./Stars";
+import LollipopScene from "./LollipopScene";
 import PhysicsTest from "./PhysicsTest";
 import res from "./images/resume.png";
 import linkedinicon from "./images/linkedin-logo.png";
@@ -71,6 +72,9 @@ function Home() {
         className="credentials-section"
         // style={{ transform: `translateY(-${parallaxOffset}px)` }}
       >
+        <div className="Lollipop-scene">
+          <LollipopScene />
+        </div>
         <div className="credentials-content">
           <h2>We're gonna make it short and sweet..</h2>
           <p>

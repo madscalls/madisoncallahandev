@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/madisoncallahandev/static/css/main.45abff14.css",
+    "main.css": "/madisoncallahandev/static/css/main.08f421d2.css",
     "main.js": "/madisoncallahandev/static/js/main.48ba5dce.js",
     "static/media/avatar.png": "/madisoncallahandev/static/media/avatar.33ffa7c340ccefbe2509.png",
     "static/media/resume.png": "/madisoncallahandev/static/media/resume.a50f5277d0f7f757b053.png",
@@ -8,14 +8,13 @@
     "static/media/starThree.glb": "/madisoncallahandev/static/media/starThree.7ace75e15d3ea92acefb.glb",
     "static/media/starTwo.glb": "/madisoncallahandev/static/media/starTwo.7542f93443fd5d07f0eb.glb",
     "static/media/starOne.glb": "/madisoncallahandev/static/media/starOne.7b6bf1ef03925bdd2955.glb",
-    "static/media/sparkles.svg": "/madisoncallahandev/static/media/sparkles.46920f0b1e849a2aa522.svg",
     "static/media/GitHub_Invertocat_White.svg": "/madisoncallahandev/static/media/GitHub_Invertocat_White.af449656122efd92a74656c5818dd6ad.svg",
     "index.html": "/madisoncallahandev/index.html",
-    "main.45abff14.css.map": "/madisoncallahandev/static/css/main.45abff14.css.map",
+    "main.08f421d2.css.map": "/madisoncallahandev/static/css/main.08f421d2.css.map",
     "main.48ba5dce.js.map": "/madisoncallahandev/static/js/main.48ba5dce.js.map"
   },
   "entrypoints": [
-    "static/css/main.45abff14.css",
+    "static/css/main.08f421d2.css",
     "static/js/main.48ba5dce.js"
   ]
 }

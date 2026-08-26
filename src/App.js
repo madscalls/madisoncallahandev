@@ -145,16 +145,7 @@ function Resume() {
 
         <div className="page-card resume-card">
           <p className="page-text">Thanks for looking</p>
-          <div className="page-actions">
-            <a
-              href={resumePdf}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="page-button"
-            >
-              View Resume (PDF)
-            </a>
-          </div>
+          <div className="page-actions"></div>
 
           <article className="resume-content">
             <header className="resume-header">

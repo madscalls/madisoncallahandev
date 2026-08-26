@@ -47,6 +47,12 @@ export default function PhysicsTest() {
       name: "OV26",
       url: "https://ospreyvisuals.com/",
       color: "#f19706",
+      size: 65,
+    },
+    {
+      name: "Securipolis",
+      url: "https://securipolis.com/",
+      color: "#13258a",
       size: 75,
     },
   ];

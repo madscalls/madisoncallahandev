@@ -1,6 +1,6 @@
 # Madi Callahan
 
-> Madison "Madi" Callahan is a front-end developer and artist based in Sarasota, FL. She builds interactive web experiences with React, JavaScript and Three.js, and sells original art. She is open to freelance projects, collaborations and job opportunities.
+> Madison "Madi" Callahan is a front-end developer and artist based in Sarasota, FL. She builds interactive web experiences with React, JavaScript and GSAP, and makes original art. She is open to freelance projects, collaborations and job opportunities.
 
 ## About
 - Role: Front-end developer (full-stack capable), artist
@@ -9,9 +9,9 @@
 - Stack: HTML, CSS, JavaScript, React, Node, Express, MongoDB, Three.js, Matter.js, Blender, Git and GitHub, responsive design, API integration, UI and UX
 
 ## Pages
-- [Portfolio home](https://madscalls.github.io/madisoncallahandev/): intro, about, projects, shop preview and contact form
-- [Shop](https://madscalls.github.io/madisoncallahandev/#/shop): original art, inquiries by form
-- [Resume](https://madscalls.github.io/madisoncallahandev/#/resume): resume preview and PDF download
+- [Intro](https://madscalls.github.io/madisoncallahandev/): a quick yes or no, then the portfolio or a game
+- [Portfolio](https://madscalls.github.io/madisoncallahandev/#/work): about, projects, resume and contact form
+- [Roll it in](https://madscalls.github.io/madisoncallahandev/#/game): a small mini golf game
 - [Resume PDF](https://madscalls.github.io/madisoncallahandev/resume.pdf)
 
 ## Projects

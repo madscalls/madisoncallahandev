@@ -1,0 +1,49 @@
+.hero { padding-block: clamp(40px, 6vw, 88px) clamp(16px, 3vw, 40px); }
+.hero__grid {
+  display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px); align-items: center;
+}
+.hero__hello { font: 700 clamp(19px, 1.8vw, 23px)/1.3 var(--display); color: var(--purple-deep); margin-bottom: 12px; }
+.hero__name {
+  font-size: clamp(52px, 9.4vw, 124px); font-weight: 900; line-height: .95; letter-spacing: -0.035em;
+  margin-bottom: 26px;
+}
+.hero__name .word { display: inline-block; white-space: nowrap; }
+.hero__name .ch { display: inline-block; cursor: default; will-change: transform; }
+.hero__lede { font-size: clamp(17px, 1.5vw, 19px); max-width: 46ch; margin-bottom: 32px; }
+.hero__actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+.portrait { position: relative; justify-self: center; width: min(100%, 400px); padding: 0 0 20px; }
+.portrait__frame {
+  position: relative; z-index: 2; aspect-ratio: 4 / 5;
+  background: var(--lilac);
+  border-radius: 40px;
+  overflow: hidden;
+  transform: rotate(2.5deg);
+  transition: transform .4s cubic-bezier(.34, 1.6, .6, 1);
+}
+.portrait:hover .portrait__frame { transform: rotate(-1.5deg) scale(1.02); }
+.portrait__frame img { width: 100%; height: 100%; object-fit: cover; }
+.portrait__plant { position: absolute; z-index: 1; transform-origin: 50% 100%; }
+.portrait__plant--snake { width: 46%; left: -22%; bottom: -2%; }
+.portrait__star { position: absolute; z-index: 5; width: 26%; right: -14%; bottom: 8%; rotate: 14deg; }
+.portrait__flower { position: absolute; z-index: 5; width: 20%; left: 4%; top: -8%; }
+.portrait__dot { position: absolute; z-index: 0; border-radius: 50%; }
+.sticker {
+  position: absolute; z-index: 4;
+  font: 700 14px/1.2 var(--display);
+  padding: 11px 18px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.sticker--loc { left: -6px; top: 58%; background: var(--teal); color: var(--ink); transform: rotate(-6deg); }
+.sticker--open { right: -10px; top: 20px; background: var(--sun); transform: rotate(7deg); }
+.sticker--open::before {
+  content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 8px;
+  background: var(--palm-leaf); border-radius: 50%; vertical-align: 0;
+}
+
+@media (max-width: 860px) {
+  .hero__grid { grid-template-columns: 1fr; }
+  .portrait { width: min(72%, 320px); order: -1; }
+}

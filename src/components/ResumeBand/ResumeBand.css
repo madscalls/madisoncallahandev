@@ -1,0 +1,8 @@
+.resume { background: var(--teal); color: var(--ink); position: relative; overflow: hidden; }
+.resume__inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap; padding-block: clamp(48px, 6vw, 80px); position: relative; z-index: 2; }
+.resume h2 { font-size: clamp(34px, 4.6vw, 54px); font-weight: 900; }
+.resume p { margin-top: 8px; font-size: 18px; }
+.resume__actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.resume .btn:not(.btn--sun) { --bg: var(--card); --shelf: var(--teal-deep); }
+.resume__deco { position: absolute; z-index: 1; }
+

@@ -1,0 +1,33 @@
+# Madi Callahan
+
+> Madison "Madi" Callahan is a front-end developer and artist based in Sarasota, FL. She builds interactive web experiences with React, JavaScript and GSAP, and makes original art. She is open to freelance projects, collaborations and job opportunities.
+
+## About
+- Role: Front-end developer (full-stack capable), artist
+- Certification: Software Engineering, TripleTen
+- Education: Monroe Community College, Fine Arts
+- Stack: HTML, CSS, JavaScript, React, Node, Express, MongoDB, Three.js, Matter.js, Blender, Git and GitHub, responsive design, API integration, UI and UX
+
+## Pages
+- [Intro](https://madscalls.github.io/madisoncallahandev/): a quick yes or no, then the portfolio or a game
+- [Portfolio](https://madscalls.github.io/madisoncallahandev/#/work): about, projects, resume and contact form
+- [Roll it in](https://madscalls.github.io/madisoncallahandev/#/game): a small mini golf game
+- [Resume PDF](https://madscalls.github.io/madisoncallahandev/resume.pdf)
+
+## Projects
+- [TicTacToad](https://madscalls.github.io/tictactoad/)
+- [Toro&Tide](https://madscalls.github.io/toroandtide/)
+- [RPS](https://madscalls.github.io/RPS/)
+- [Color-Strobe](https://madscalls.github.io/colorstrobe/)
+- [BW Template](https://madscalls.github.io/bwtemplate/)
+- [OV26](https://ospreyvisuals.com/)
+- [Securipolis](https://securipolis.com/)
+- [She Ships](https://sheships.dev/)
+- [Whelk Works](https://www.whelkworks.com/)
+- [orb.0](https://madscalls.github.io/orb.0/)
+
+## Contact
+- Email: madscalls@gmail.com
+- GitHub: https://github.com/madscalls
+- LinkedIn: https://www.linkedin.com/in/madison-callahan-052140369/
+- Studio: https://whelkworks.com

@@ -1,0 +1,3 @@
+.draggable { display: block; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; pointer-events: auto; }
+.draggable.is-dragging { cursor: grabbing; }
+.draggable > svg { pointer-events: none; }
